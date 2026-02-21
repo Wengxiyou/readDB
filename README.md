@@ -43,7 +43,12 @@
 mvn package
 ```
 
-注意：将 `sqlite-jdbc-x.x.x.jar` 替换为您实际下载的文件名。在Linux/Mac系统上，使用冒号（:）而不是分号（;）作为类路径分隔符。
+### 
+```
+mvn package
+```
+
+
 
 ## 使用说明
 
