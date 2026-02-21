@@ -43,9 +43,9 @@
 mvn package
 ```
 
-### 
+### 运行
 ```
-mvn package
+mvn javafx:run
 ```
 
 
