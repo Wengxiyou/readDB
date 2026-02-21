@@ -38,21 +38,9 @@
 
 ## 编译和运行
 
-### 方法一：使用批处理文件（推荐，适用于Windows）
-1. 确保已安装Java 8或更高版本
-2. 下载SQLite JDBC驱动并放在程序目录中
-3. 双击运行 `启动编辑器.bat`
-
-### 方法二：手动编译和运行
-
-#### 编译
+### 打包
 ```
-javac SQLiteEditor.java
-```
-
-#### 运行
-```
-java -cp .;sqlite-jdbc-x.x.x.jar SQLiteEditor
+mvn package
 ```
 
 注意：将 `sqlite-jdbc-x.x.x.jar` 替换为您实际下载的文件名。在Linux/Mac系统上，使用冒号（:）而不是分号（;）作为类路径分隔符。
